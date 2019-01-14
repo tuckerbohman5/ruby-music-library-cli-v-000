@@ -1,4 +1,4 @@
-lclass Song
+class Song
   extend Concerns::Findable
   attr_accessor :name, :artist, :genre
 
